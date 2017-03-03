@@ -4,11 +4,11 @@ html {
 *, *:before, *;after {box-sizing: inherit;}
 
 body {background:url("../images/bg.jpg") no-repeat;
-	background-position: 5% 10%;}
+	}
 
 #container {
 	overflow:auto;
-	width:620px;
+	width:930px;
 	padding:10px;
 	margin:auto;
 }
@@ -20,7 +20,7 @@ header {display:flex;
 		
 header div {width: 50px;
 	height: 50px;
-	background: black;
+/*	background: black;*/
 	margin: 2px;}
 
 .links {
@@ -29,18 +29,24 @@ header div {width: 50px;
 	justify-content: space-between;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	
 	}
 
 .links div {
-	width: 150px;
-	height: 20px;
+	width: 220px;
+	height: 30px;
 	margin: 2px;
-	background: black;
+	background: red;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	font-weight: bold;
+	box-shadow: inset 1px 1px 1px 0px #777;
 }
 
-.hipster {
+.hipster {   
 	overflow: hidden;
-	width: 620px;
+	width: 920px;
 	height: 300px;
 	background-image:url("../images/top-image.png");
 	background-repeat: no-repeat;
@@ -51,41 +57,55 @@ header div {width: 50px;
 
 .infocube {display: flex;
 			flex-direction: row;
-			justify-content: space-around;
+			justify-content: space-between;
+			width:920px;
+			margin: 30px 3px 30px;
 }
 
-.infocube div {width:200px;
+.infocube div {width:292px;
 				height:300px;
 				background-color: white;
 }
 
 .skateboarders {
 	postion:relative;
-	width:620px;
+	width:925px;
+	margin: 30px 0px 30px;
 }
 
 .skateboarders div {
 	background: black;
 	color:white;
-	width:200px;
+	width:292px;
 	height:150px;
 	line-height:150px;
 	text-align:center;
 	float:left;
 	border:2px solid white;
+	margin-right: 17px;
+	margin-bottom: 15px;
+	margin-left: 2px;
 	
 	
 }
+
 .skateboarders div:nth-child(3) {
 	clear:left;
-	width:400px;
+	width:605px;
+	height: 150px;
+	margin-right: 0px;
+	margin-top: 3px;
 }
 
 .skateboarders div:nth-child(4) {
-	width: 200px;
-	height: 300px;
+	width: 292px;
+	height: 323px;
 	line-height: 300px;
-	margin-top: -150px;
+	margin-top: -168px;
+	margin-right: 0px;
+	margin-left: 20px;
+
+
 }
 
 .skateboarders .arrow {
@@ -99,5 +119,12 @@ header div {width: 50px;
 
 .sk8pics {display: flex;
 			flex-direction: row;
-			justify-content: space-around;
-			clear:both;}
+			justify-content: space-between;
+			clear:both;
+			background-color: white;
+			height: 285px;
+			width: 922px;
+}
+.sk8pics div{margin:12px 5px 0px;
+
+			}
