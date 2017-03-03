@@ -3,15 +3,22 @@ html {
 }
 *, *:before, *;after {box-sizing: inherit;}
 
-body {
-	background-image:url("../images/bg.jpg");
+body {background:url("../images/bg.jpg") no-repeat;
+	background-position: 5% 10%;}
+
+#container {
+	overflow:auto;
+	width:620px;
+	padding:10px;
+	margin:auto;
 }
-.nav {
-	display:flex;
-	flex-direction:inline-flex;
-	justify-content: flex-end;}
-.nav div {
-	width: 50px;
+
+header {display:flex;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+}
+		
+header div {width: 50px;
 	height: 50px;
 	background: black;
 	margin: 2px;}
@@ -20,6 +27,8 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	}
 
 .links div {
@@ -28,42 +37,44 @@ body {
 	margin: 2px;
 	background: black;
 }
+
 .hipster {
 	overflow: hidden;
 	width: 620px;
-	height: 250px;
+	height: 300px;
 	background-image:url("../images/top-image.png");
 	background-repeat: no-repeat;
-	background-size: 850px 620px;
-	background-position: 20% 29%;
+	background-size: 1100px 700px;
+	background-position: 30% 29%;
+	border: 5px solid white;
 }
 
-#container {
-	width:620px;
-	background:red;
-	padding: 10px;
-	margin:auto;
+.infocube {display: flex;
+			flex-direction: row;
+			justify-content: space-around;
 }
 
-#container:after {
-	content:"";
-	display:block;
-	clear:both;
+.infocube div {width:200px;
+				height:300px;
+				background-color: white;
 }
 
 .skateboarders {
 	postion:relative;
+	width:620px;
 }
 
 .skateboarders div {
 	background: black;
 	color:white;
 	width:200px;
-	height: 150px;
-	line-height: 150px;
+	height:150px;
+	line-height:150px;
 	text-align:center;
 	float:left;
 	border:2px solid white;
+	
+	
 }
 .skateboarders div:nth-child(3) {
 	clear:left;
@@ -71,9 +82,12 @@ body {
 }
 
 .skateboarders div:nth-child(4) {
+	width: 200px;
 	height: 300px;
 	line-height: 300px;
+	margin-top: -150px;
 }
+
 .skateboarders .arrow {
 	width:100px;
 	height: 50px;
@@ -82,11 +96,8 @@ body {
 	top:203px;
 	left:-125px;
 }
-#fixed {
-	position:fixed;
-	width: 50px;
-	height: 50px;
-	background:blue;
-	top:20px;
-	left:20px;
-}
+
+.sk8pics {display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			clear:both;}
