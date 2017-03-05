@@ -6,6 +6,13 @@ html {
 body {background:url("../images/bg.jpg") no-repeat;
 	}
 
+header div:nth-child(1) {
+	height: 50px;
+	width:150px;
+	line-height: 50px;
+	color: white;
+}
+
 #container {
 	overflow:auto;
 	width:930px;
@@ -17,6 +24,7 @@ header {display:flex;
 	flex-wrap: nowrap;
 	justify-content: flex-end;
 }
+
 		
 header div {width: 50px;
 	height: 50px;
@@ -60,15 +68,30 @@ header div {width: 50px;
 			justify-content: space-between;
 			width:920px;
 			margin: 30px 3px 30px;
+			font-family: sans-serif;
+			
+
 }
 
-.infocube div {width:292px;
+.infocube div {width:240px;
 				height:300px;
 				background-color: white;
+				padding-left: 25px;
+			    padding-right: 25px;
+			    padding-top: 5px;
+				
+}
+
+.infocube p {
+		font-size: 13px;
+}
+footer {
+		color: red;
+		text-align: center;
 }
 
 .skateboarders {
-	postion:relative;
+	position:relative;
 	width:925px;
 	margin: 30px 0px 30px;
 }
@@ -109,13 +132,29 @@ header div {width: 50px;
 }
 
 .skateboarders .arrow {
-	width:100px;
-	height: 50px;
-	line-height: 50px;
-	position: absolute;
-	top:203px;
-	left:-125px;
+	position:absolute;
+	width:200px;
+	height:50px;
+	line-height:50px;
+	top:50px;
+	left:-210px;
+	background-color: red;
 }
+/*
+.arrowhead {width: 0;
+	height: 0;
+	border-top: 60px solid transparent;
+  	border-bottom: 60px solid transparent;
+  	border-left: 60px solid red; 	
+}
+.skateboarder .arrow:after {
+	content: "arrowhead";
+	position: inherit;
+	display: block;
+	clear:both;
+	}
+ */ 	
+
 
 .sk8pics {display: flex;
 			flex-direction: row;
@@ -127,4 +166,41 @@ header div {width: 50px;
 }
 .sk8pics div{margin:12px 5px 0px;
 
-			}
+}
+
+.contactus {
+	width: 925px;
+	height: 305px;
+	background-color: white;
+	margin: 30px 0px 30px;
+}
+
+.contactus div{
+	background: black;
+	color: white;
+	width: 450px;
+	height: 285px;
+	text-align: center;
+	float:left;
+	margin:5px;
+	border: 2px solid white;
+}
+.contactus div:nth-child(2){
+	width:450px;
+	height:50px;
+}
+.contactus div:nth-child(3){
+	width: 450px;
+	height: 50px;
+}
+.contactus div:nth-child(4){
+	width: 450px;
+	height: 100px;
+}
+.contactus div:nth-child(5){
+	width: 450px;
+	height: 50px;
+	float: right;
+}
+
+
