@@ -14,7 +14,7 @@ header div:nth-child(1) {
 }
 
 #container {
-	overflow:auto;
+	overflow: auto;
 	width:930px;
 	padding:10px;
 	margin:auto;
@@ -79,6 +79,7 @@ header div {width: 50px;
 				padding-left: 25px;
 			    padding-right: 25px;
 			    padding-top: 5px;
+			    
 				
 }
 
@@ -97,7 +98,7 @@ footer {
 }
 
 .skateboarders div {
-	background: black;
+	/*background: black;*/
 	color:white;
 	width:292px;
 	height:150px;
@@ -107,12 +108,27 @@ footer {
 	border:2px solid white;
 	margin-right: 17px;
 	margin-bottom: 15px;
-	margin-left: 2px;
+	margin-left: 2px;	
+}
+
+.skateboarders div:nth-child(1){
+	background-image:url("../images/sk8er-4.png");
+	background-repeat: no-repeat;
+	background-size: 292px 150px;
+}
+
+.skateborders div:nth-child(2){
+	background-image:url("../images/sk8er-3.png");
+	background-repeat: no-repeat;
+	background-size: 292px 150px;
 	
-	
+
 }
 
 .skateboarders div:nth-child(3) {
+	background-image: url("../images/sk8er-1.png");
+	background-repeat: no-repeat;
+	background-size: 605px 150px;
 	clear:left;
 	width:605px;
 	height: 150px;
@@ -121,7 +137,9 @@ footer {
 }
 
 .skateboarders div:nth-child(4) {
-	width: 292px;
+	background-image: url("..images/sk8er-2.png");
+	background-repeat: no-repeat;
+	width: 290px;
 	height: 323px;
 	line-height: 300px;
 	margin-top: -168px;
@@ -140,20 +158,7 @@ footer {
 	left:-210px;
 	background-color: red;
 }
-/*
-.arrowhead {width: 0;
-	height: 0;
-	border-top: 60px solid transparent;
-  	border-bottom: 60px solid transparent;
-  	border-left: 60px solid red; 	
-}
-.skateboarder .arrow:after {
-	content: "arrowhead";
-	position: inherit;
-	display: block;
-	clear:both;
-	}
- */ 	
+ 
 
 
 .sk8pics {display: flex;
@@ -182,23 +187,24 @@ footer {
 	height: 285px;
 	text-align: center;
 	float:left;
-	margin:5px;
+	margin:6px;
 	border: 2px solid white;
 }
 .contactus div:nth-child(2){
-	width:450px;
+	float: right;
+	width:445px;
 	height:50px;
 }
 .contactus div:nth-child(3){
-	width: 450px;
+	width: 445px;
 	height: 50px;
 }
 .contactus div:nth-child(4){
-	width: 450px;
+	width: 445px;
 	height: 100px;
 }
 .contactus div:nth-child(5){
-	width: 450px;
+	width: 445px;
 	height: 50px;
 	float: right;
 }
