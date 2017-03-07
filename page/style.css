@@ -65,10 +65,10 @@ header div {width: 50px;
 
 }
 
-.powell {
-	position: relative;
-	top: 25px;
-	left:15px;
+.powell img {
+	position: absolute;
+	top: 159px;
+	left:526px;
 }
 
 .infocube {display: flex;
@@ -139,8 +139,7 @@ footer {
 .skateboarders div:nth-child(3) {
 	background-image: url("../images/sk8er-1.png");
 	background-repeat: no-repeat;
-	background-position: 55px -70px;
-	background-size: 550px 275px;
+	background-position: -41px -123px;
 	clear:left;
 	width:605px;
 	height: 150px;
