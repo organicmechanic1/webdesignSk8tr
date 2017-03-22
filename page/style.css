@@ -16,12 +16,11 @@ header div:nth-child(1) {
 #container {
 	width:930px;
 	padding:10px;
-	margin:auto;
-	box-shadow: inset 1px 1px 1px 0px #777;
+	margin:auto;	
 }
 
-
-header {display:flex;
+header {
+	display:flex;
 	flex-wrap: nowrap;
 	justify-content: flex-end;
 }
@@ -211,7 +210,7 @@ footer {
 
 .contactus div{
 	background: white;
-	color: #ccc;
+	color: rgb(89,102,115);
 	width: 445px;
 	height: 225px;
 	text-align: left;
@@ -221,8 +220,9 @@ footer {
 	font-style: sans-serif;
 }
 
-.contactus i {
+.contactus div i {
 	margin:2px;
+	background-color: rgb(240,242,244);
 }
 
 input {
@@ -255,36 +255,6 @@ textarea {
 	color: white;
 	margin-left: 318px;
 }
-/*.contactus form div{
-	float: right;
-	width:440px;
-	height: 50px;
 
-	
-}
-.contactus div:nth-child(3){
-	width: 440px;
-	height: 50px;
-	
-}
-.contactus div:nth-child(4){
-	width: 440px;
-	height: 150px;
-	
-}
-.contactus form div:nth-child(5){
-	clear: both;
-	position: absolute;
-	width: 150px;
-	height: 15px;
-	background-color: red;
-	border:none;
-	color: white;
-	padding: 15px 32px;
-	text-align:center;
-	text-decoration: none;
-	font-size: 12px;
-
-}*/
 
 
