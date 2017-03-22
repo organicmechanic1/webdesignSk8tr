@@ -211,16 +211,51 @@ footer {
 
 .contactus div{
 	background: white;
-	color: black;
+	color: #ccc;
 	width: 445px;
 	height: 225px;
-	text-align: center;
+	text-align: left;
 	float:left;
 	margin:6px;
 	border: 2px solid white;
 	font-style: sans-serif;
 }
-.contactus form div{
+
+.contactus i {
+	margin:2px;
+}
+
+input {
+	font-size: 18px;
+	padding:2px;
+	margin:20px 2px;
+	
+}
+
+input, textarea {
+	display: block;
+	width: 430px;
+	box-shadow: inset 1px 1px 1px 0px #777;
+
+}
+
+
+textarea {
+	height: 110px;
+	margin: 2px;
+	overflow: scroll;
+	border: 1px solid #ccc;
+	resize: none;
+}
+
+#submit {
+	position: relative;
+	width: 120px;
+	background-color: red;
+	color: white;
+	margin-left: 318px;
+}
+/*.contactus form div{
 	float: right;
 	width:440px;
 	height: 50px;
@@ -250,8 +285,6 @@ footer {
 	text-decoration: none;
 	font-size: 12px;
 
-
-
-}
+}*/
 
 
